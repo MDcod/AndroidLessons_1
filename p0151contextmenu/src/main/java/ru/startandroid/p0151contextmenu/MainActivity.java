@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         switch (v.getId()) {
             case R.id.tvColor:
-                menu.add(0,MENU_COLOR_RED,0,"RED");
+                menu.add(0,MENU_COLOR_RED,0,"YELLOW");
                 menu.add(0,MENU_COLOR_GREEN,0,"GREEN");
-                menu.add(0,MENU_COLOR_BLUE,0,"BLUE");
+                menu.add(0,MENU_COLOR_BLUE,0,"BUBBLE");
                 break;
             case R.id.tvSize:
                 menu.add(0,MENU_SIZE_22,0,"22");
